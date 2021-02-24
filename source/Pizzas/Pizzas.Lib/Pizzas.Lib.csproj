@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Input\a_example" />
+    <None Remove="Input\b_little_bit_of_everything.in" />
+    <None Remove="Input\c_many_ingredients.in" />
+    <None Remove="Input\d_many_pizzas.in" />
+    <None Remove="Input\e_many_teams.in" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Input\a_example" />
+    <EmbeddedResource Include="Input\b_little_bit_of_everything.in" />
+    <EmbeddedResource Include="Input\c_many_ingredients.in" />
+    <EmbeddedResource Include="Input\d_many_pizzas.in" />
+    <EmbeddedResource Include="Input\e_many_teams.in" />
+  </ItemGroup>
+
+</Project>
